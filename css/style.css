@@ -5,7 +5,7 @@
   margin: 0;
 }
 header{
-  background-color:black;
+  background-color:#4D5D53;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,19 +14,20 @@ body{
   background-color:aliceblue;
   color: black;
 }
-.nav_links{
+.nav-links{
   display: flex; /* Hace que los elementos <li> se alineen en fila */
   list-style: none; /*saca los puntos de los links*/
-  height: 85px;
+  height: 90px;
   padding: 5px, 10%;
 }
-.nav_link :hover{
+.nav-link :hover{
   background-color: antiquewhite;
 }
 /* Espaciado entre los elementos de la lista*/
-.nav_links li {
-  margin: 0 20px; /* Ajusta el espacio horizontal */
+.nav-links li {
+  margin: 30px 40px; /* Ajusta el espacio horizontal */
 }
+
 h1{
   text-align:center;
 }
@@ -76,7 +77,7 @@ h3{
   top: 10px;
   text-align: center;
 }
-.sobre_mi{
+.sobre-mi{
   text-align: justify;
 }
 
